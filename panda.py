@@ -18,4 +18,6 @@ df.head(10)
 
 df.dropna(subset=["price"], axis=0)
 
+df.describe()
+
 df.to_csv("automobile.csv", index=False)
