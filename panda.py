@@ -11,3 +11,8 @@ headers = ["symboling","normalized-losses","make","fuel-type","aspiration", "num
          "num-of-cylinders", "engine-size","fuel-system","bore","stroke","compression-ratio","horsepower",
          "peak-rpm","city-mpg","highway-mpg","price"]
 print("headers\n", headers)
+
+df.columns = headers
+df.head(10)
+
+
