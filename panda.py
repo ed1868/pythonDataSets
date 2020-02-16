@@ -16,3 +16,4 @@ df.columns = headers
 df.head(10)
 
 
+df.dropna(subset=["price"], axis=0)
